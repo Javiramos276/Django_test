@@ -1,0 +1,53 @@
+body{
+    background-color: #252424;
+}
+
+p{
+    color: rgb(253, 253, 253);
+    font-size: 30px;
+}
+
+header{
+    background-color: #3D888E;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.conteiner{
+    height: 300px;
+}
+
+.conteiner-izq{
+    display: flex;
+    justify-content: left;
+}
+
+.conteiner-der{
+    display: flex;
+    justify-content: right;
+    padding-top: 0;
+    padding-right: 400px;
+}
+
+.pie-de-foto{
+    display: flex;
+    justify-content: right;
+    padding-right: 450px ;
+    font-size: 30px;
+}
+
