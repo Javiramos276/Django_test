@@ -3,6 +3,6 @@ from django.shortcuts import render
 
 
 def home(request):
-    # qr = 
-    # context = {}
-    return render(request, "index.html")
+    qr = Qr.objects.all().filter(titulo = "Mi curriculum").first()
+    context = {"qr":qr}
+    return render(request, "index.html", context)
