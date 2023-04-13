@@ -17,12 +17,14 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from qr.views import home
+from django.views.generic.base import TemplateView
+from qr.views import home, logging
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('qr/', include("qr.urls")),
-    path('', home),
+    path('', include("qr.urls")),
+    path("accounts/", include("django.contrib.auth.urls")),
 ]
 
 if settings.DEBUG:
