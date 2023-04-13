@@ -1,0 +1,3 @@
+#Package Requeriments
+Python >= 3.7
+Django 4.1.7
