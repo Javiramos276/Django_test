@@ -3,7 +3,7 @@ from django.shortcuts import render
 from qrscan.settings import BASE_DIR
 
 
-def home(request):
+def index(request):
     qr = Qr.objects.all().first()
     context = {"qr":qr}
     return render(request, "index.html", context)
