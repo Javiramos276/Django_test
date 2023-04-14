@@ -1,11 +1,34 @@
-.conteiner{
-    background-color: rgb(139, 139, 214);
-}
-
 body{
-    background-color: rgb(139, 127, 127);
+    background-color: #252424 ;
 }
 
-.p{
-    color: aqua;
+.container{
+    color: rgb(43, 46, 48);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0px 0px 5px rgb(52, 99, 107); 
+}
+
+p{
+    color: #007bff;
+    font-size: 30px;
+}
+
+h2{
+    color: #007bff;
+    font-size: 30px;
+}
+
+.bienvenida_usuario{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0px 0px 5px rgb(52, 99, 107); 
 }
