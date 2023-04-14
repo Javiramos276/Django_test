@@ -3,5 +3,5 @@ import qrcode
 
 
 class Qr(models.Model):
-    data = models.ImageField(upload_to='media')
+    data = models.ImageField()
     titulo = models.CharField(max_length=100, null=True)
