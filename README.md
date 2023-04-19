@@ -20,7 +20,6 @@ accediendo al siguiente link http://127.0.0.1:8000/admin/.
 
 * Django
 * Python
-* Bootstrap
 
 ## Requisitos.
 
