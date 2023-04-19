@@ -1,8 +1,8 @@
 from .models import Qr
 from django.shortcuts import render
-from qrscan.settings import BASE_DIR
+from django.contrib.auth.decorators import login_required
 
-
+@login_required
 def index(request):
     qr = Qr.objects.all().first()
     context = {"qr":qr}

@@ -15,9 +15,12 @@
     <header class="header">
         <nav>
             <ul>
-                <li>Proyectos</li>
-                <li>Acerca de mi</li>
-                <li>Contacto</li>
+                <li class="Topics">Proyectos</li>
+                <li class="Topics">Acerca de mi</li>
+                <li class="Topics">Contacto</li>
+                {% if user.is_authenticated %}
+                <li class="usuario_logueado">Hola {{ user.username }}!</li>
+                {% endif %}
             </ul>
         </nav>
     </header>

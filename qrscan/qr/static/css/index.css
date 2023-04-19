@@ -25,6 +25,10 @@ font-size: 18px;
 
 }
 
+nav .Topics {
+    margin-right: 10px;
+}
+
 nav a {
 color: #000000;
 font-size: 18px;
@@ -75,3 +79,7 @@ nav li:hover {
     cursor: pointer;
     transform: translateY(-3px);
   }
+
+nav .usuario_logueado {
+margin-left: auto;
+}
