@@ -34,5 +34,4 @@ Posibles mejoras para implementar en un futuro.
 de datos, o bien aplicar un filtro para poder acceder a los mismos y luego se mostrado en la plantilla necesaria.
 - Importar de manera correcta los estilos de css. En el proyecto, de momento los estilos que hay son los que se encuentran en la libreria bootstrap.
 - Modificar los nombres de las funciones y plantillas si resultan confusos.
-- Modificar sobre la pagina principal "http://127.0.0.1:8000/accounts/login/bienvenido/" para que en la esquina superior figure 
-que el usuario efectivamente esta logueado o no.
+
