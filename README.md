@@ -3,7 +3,7 @@
 Este proyecto tiene como fin crear una pagina web como una plantilla para un curriculum vitae.
 
 ## Parte 0. Puesta en marcha.
--Una vez clonado el repositorio ejecutar en consola: 
+Una vez clonado el repositorio ejecutar en consola
 -python3 manage.py migrate esto es para aplicar las migraciones a la base de datos
 -python3 manage.py createsuperuser esto es para crear un usuario con acceso al admin http://127.0.0.1:8000/admin/.
 -python3 manage.py runserver para ejecutar el servidor
