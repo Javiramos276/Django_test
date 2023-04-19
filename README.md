@@ -23,8 +23,8 @@ accediendo al siguiente link http://127.0.0.1:8000/admin/.
 
 ## Requisitos.
 
--Python >= 3.7
--Django 4.1.7
+- Python >= 3.7
+- Django 4.1.7
 
 # Mejoras
 
