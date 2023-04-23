@@ -5,7 +5,7 @@ from .forms import QrForm
 
 @login_required
 def index(request):
-    qr = Qr.objects.all().first()
+    qr = Qr.objects.all()
     context = {"qr":qr}
     return render(request, "index.html", context)
 
@@ -24,8 +24,11 @@ def qrnuevo(request):
         form = QrForm(request.POST,request.FILES)
         if form.is_valid():
             form.save()
-            return redirect('/')
-        print(form.errors)
+            return redirect('/accounts/login/bienvenido/')
         print("Es un post")
     return render(request,'qrnuevo.html', {'form':form})
 
+# def photo_view(request):
+#     qr = Qr.objects.all().first()
+#     context = {'photos': qr}
+#     return render(request,'index.html', context)

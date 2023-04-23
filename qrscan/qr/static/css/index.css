@@ -44,31 +44,22 @@ color: #007bff;
 /* Estilos para el contenido principal */
 .conteiner {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 50px;
 }
 
-.conteiner-izq {
-margin-bottom: 20px;
+.conteiner-superior {
+display: flex;
+margin-bottom: 10px;
+color: #007bff;
+justify-content: center;
 }
 
 .parrafo {
 font-size: 24px;
 font-weight: bold;
-}
-
-.pie-de-foto {
-color: #007bff;
-font-size: 18px;
-font-weight: bold;
-margin-top: 20px;
-text-decoration: none;
-}
-
-.pie-de-foto:hover {
-text-decoration: underline;
 }
 
 body{
@@ -82,4 +73,28 @@ nav li:hover {
 
 nav .usuario_logueado {
 margin-left: auto;
+}
+
+.Piedefoto{
+    text-align: center;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.conteiner-inferior{
+    position: relative;
+    display: flex;
+    flex-direction: row; /* cambio */
+    margin-right: 50px;
+    gap: 20px;
+    text-align: center;
+}
+
+.imagen-container { /* nuevo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
