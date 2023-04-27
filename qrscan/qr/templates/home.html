@@ -15,7 +15,8 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-  <p class="bienvenida_usuario">Hola {{ user.username }}! <a href="{% url 'logout' %}">Salir</p>
+  <p class="bienvenida_usuario">Hola {{ user.username }}! <a href="{% url 'logout' %}">Salir <a href="{% url 'welcome' %}">Home</a></p>
+    
 
 {% else %}
     <div class="container">

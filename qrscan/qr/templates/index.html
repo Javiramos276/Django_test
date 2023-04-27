@@ -42,14 +42,13 @@
 
     <div class="conteiner">
         
-
         <div class="conteiner-inferior">
         {% for data in qr %}
         <div class="imagen-containter">
             <img src='{{data.data.url}}' alt="My image" class="qrs">
             <legend class="Piedefoto"> {{data.titulo}} </legend>
         </div> 
-        {%endfor%}
+        {% endfor %}
         </div>
         
     </div>
