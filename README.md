@@ -1,10 +1,13 @@
 # Django_test
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django?logo=Python&style=plastic)
+
 Este proyecto tiene como fin crear una pagina web como una plantilla para un curriculum vitae.
 
 ## Parte 0. Puesta en marcha.
 Una vez clonado el repositorio ejecutar en consola
 - Ejecutar en consola `pip install -r requeriments.txt` en el directorio donde se quiera ejecutar el proyecto.
+- `python3 manage.py makemigrations`. Este comando sirve para hacerle entender a Django que se hicieron cambios en los modelos
 - `python3 manage.py migrate` esto es para aplicar las migraciones a la base de datos
 - `python3 manage.py createsuperuser` esto es para crear un usuario con acceso al admin http://127.0.0.1:8000/admin/.
 - `python3 manage.py runserver` para ejecutar el servidor
@@ -15,6 +18,7 @@ Una vez clonado el repositorio ejecutar en consola
 accediendo al siguiente link http://127.0.0.1:8000/admin/.
 - El usuario podrá ver sus fotos subidas únicamente si se encuentra con la sesión iniciada.
 - El usuario podrá subir/modificar/eliminar el contenido subido a la base de datos
+- Un mismo usuario podrá tener mas de una cuenta y en la página principal tener contenido diferente (por ejemplo para crearse mas de un curriculum) 
 
 ## Parte 2. Tecnologías utilizadas
 
