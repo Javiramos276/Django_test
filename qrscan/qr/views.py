@@ -21,8 +21,10 @@ def qrnuevo(request):
     if request.method == 'POST':
         form = QrForm(request.POST,request.FILES)
         if form.is_valid():
-            instance = form.save(commit=False) #commit= False lo que hace es decir "no guardes esto aun", vamos a aplicar una accion mas y luego si vamos a guardar el post
-            instance.usuario = request.user #Aca lo que hacemos es pedir el USUARIO asociado al modelo del qr a traves del request que esta haciendo el usuario en el form
+            #commit= False lo que hace es decir "no guardes esto aun", vamos a aplicar una accion mas y luego si vamos a guardar el post
+            instance = form.save(commit=False) 
+            #Aca lo que hacemos es pedir el USUARIO asociado al modelo del qr a traves del request que esta haciendo el usuario en el form
+            instance.usuario = request.user 
             instance.save()
             return redirect('/accounts/login/bienvenido/')
     return render(request,'qrnuevo.html', {'form':form})
