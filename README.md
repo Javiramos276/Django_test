@@ -5,7 +5,7 @@
 ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=plastic&logo=django&logoColor=white)
 
-Este proyecto tiene como fin crear una pagina web como una plantilla para un curriculum vitae.
+Este proyecto tiene como fin crear una página web como una plantilla para un currículum vitae.
 
 ## Parte 0. Puesta en marcha.
 Una vez clonado el repositorio ejecutar en consola
@@ -17,11 +17,11 @@ Una vez clonado el repositorio ejecutar en consola
 
 ## Parte 1. Implementaciones del usuario
 
-- El usuario podrá acceder a la pagina de administración y subir a la base de datos cualquier tipo de imagen
+- El usuario podrá acceder a la página de administración y subir a la base de datos cualquier tipo de imagen
 accediendo al siguiente link http://127.0.0.1:8000/admin/.
 - El usuario podrá ver sus fotos subidas únicamente si se encuentra con la sesión iniciada.
 - El usuario podrá subir/modificar/eliminar el contenido subido a la base de datos
-- Un mismo usuario podrá tener mas de una cuenta y en la página principal tener contenido diferente (por ejemplo para crearse mas de un curriculum) 
+- Un mismo usuario podrá tener mas de una cuenta y en la página principal tener contenido diferente (por ejemplo para crearse mas de un currículum) 
 
 ## Parte 2. Tecnologías utilizadas
 
@@ -37,7 +37,7 @@ accediendo al siguiente link http://127.0.0.1:8000/admin/.
 
 Posibles mejoras para implementar en un futuro.
 
-- En caso de haber mas de una imagen en la base de datos que quiera ser llamada en las plantillas, habrá que recorrer los objetos de la base 
+- En caso de haber más de una imágen en la base de datos que quiera ser llamada en las plantillas, habrá que recorrer los objetos de la base 
 de datos, o bien aplicar un filtro para poder acceder a los mismos y luego se mostrado en la plantilla necesaria.
 - Importar de manera correcta los estilos de css. En el proyecto, de momento los estilos que hay son los que se encuentran en la libreria bootstrap.
 - Modificar los nombres de las funciones y plantillas si resultan confusos.
